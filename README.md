@@ -3,7 +3,10 @@
 
 ## Getting Started
 ```sh
+# Cloning to your workspace
 $ git clone https://github.com/wonism/react-google-ads.git && cd react-google-ads
+
+# Installation with package manager
 $ yarn add react react-dom react-google-ades
 # or..
 $ npm i -S react react-dom react-google-ades
