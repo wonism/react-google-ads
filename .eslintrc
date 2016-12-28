@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/forbid-prop-types": [
+      1,
+      { "forbid": [] }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [ ".js", ".jsx"] }
+    ]
+  },
+  "globals": {
+    "adsbygoogle": true
+  }
+}
+
