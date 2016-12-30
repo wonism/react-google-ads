@@ -1,6 +1,6 @@
 {
   "name": "react-google-ads",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for google adsense",
   "main": "dist/google-ads.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonism/react-google.ads.git"
+    "url": "git+https://github.com/wonism/react-google-ads.git"
   },
   "keywords": [
     "react",
