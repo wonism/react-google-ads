@@ -20,7 +20,7 @@ class GoogleAds extends Component {
   render() {
     return (
       <ins
-        className="adsbygoogle"
+        className={`adsbygoogle ${this.props.className || ''}`}
         data-ad-client={this.props.client}
         data-ad-slot={this.props.slot}
         style={this.props.style}
@@ -33,11 +33,13 @@ class GoogleAds extends Component {
 GoogleAds.propTypes = {
   client: PropTypes.string.isRequired,
   slot: PropTypes.string.isRequired,
+  format: PropTypes.string,
+  className: PropTypes.string,
   style: PropTypes.object,
 };
 
 GoogleAds.defaultProps = {
-  style: { display: 'block', },
+  style: { display: 'block' },
   format: 'auto',
 };
 

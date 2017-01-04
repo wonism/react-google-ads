@@ -1,6 +1,6 @@
 {
   "name": "react-google-ads",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component for google adsense",
   "main": "dist/google-ads.js",
   "scripts": {

@@ -49,3 +49,10 @@ ReactDOM.render(
 );
 ```
 
+## Change Log
+__1.0.0__
+- Initial release
+
+__1.0.2__
+- Added __className__ property to add custom class to `<ins>` tag.
+

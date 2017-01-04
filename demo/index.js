@@ -8,6 +8,8 @@ render(
   <GoogleAds
     client=""
     slot=""
+    className="custom_class_name"
+    format="rectangle"
   />, appRoot
 );
 
