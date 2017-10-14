@@ -3,9 +3,6 @@
 
 ## Getting Started
 ```sh
-# Cloning to your workspace
-$ git clone https://github.com/wonism/react-google-ads.git && cd react-google-ads
-
 # Installation with package manager
 $ yarn add react react-dom react-google-ades
 # or..
@@ -16,7 +13,7 @@ $ npm i -S react react-dom react-google-ades
 ```sh
 $ npm run demo
 ```
-- access [localhost:3333](http://localhost:3333)
+- access [localhost:8888](http://localhost:8888)
 
 ## Production Bundle
 ```sh
@@ -54,5 +51,8 @@ __1.0.0__
 - Initial release
 
 __1.0.2__
-- Added __className__ property to add custom class to `<ins>` tag.
+- Added `className` property to add custom class to `<ins>` tag.
 
+__1.0.3__
+- migrate `webpack`
+- migrate `babel preset`

@@ -1,6 +1,6 @@
 {
   "name": "react-google-ads",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component for google adsense",
   "main": "dist/google-ads.js",
   "scripts": {
@@ -28,23 +28,30 @@
     "url": "https://github.com/wonism/react-google.ads/issues"
   },
   "homepage": "https://jaewonism.com",
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
   "dependencies": {
     "react": "^15.4.1"
   },
   "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "eslint": "^3.12.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react": "^6.10.3",
+    "prop-types": "^15.6.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.1"
   }
 }

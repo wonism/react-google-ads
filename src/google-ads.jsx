@@ -1,6 +1,20 @@
-import React, { PropTypes, Component } from 'react';
+import React, { PropTypes, PureComponent } from 'react';
 
-class GoogleAds extends Component {
+export default class GoogleAds extends PureComponent {
+  static propTypes = {
+    client: PropTypes.string.isRequired,
+    slot: PropTypes.string.isRequired,
+    format: PropTypes.string,
+    className: PropTypes.string,
+    style: PropTypes.object,
+  };
+
+  static defaultProps = {
+    format: 'auto',
+    className: '',
+    style: { display: 'block' },
+  };
+
   componentDidMount() {
     ((d, s, id, cb) => {
       const element = d.getElementsByTagName(s)[0];
@@ -20,7 +34,7 @@ class GoogleAds extends Component {
   render() {
     return (
       <ins
-        className={`adsbygoogle ${this.props.className || ''}`}
+        className={`adsbygoogle ${this.props.className}`}
         data-ad-client={this.props.client}
         data-ad-slot={this.props.slot}
         style={this.props.style}
@@ -29,19 +43,3 @@ class GoogleAds extends Component {
     );
   }
 }
-
-GoogleAds.propTypes = {
-  client: PropTypes.string.isRequired,
-  slot: PropTypes.string.isRequired,
-  format: PropTypes.string,
-  className: PropTypes.string,
-  style: PropTypes.object,
-};
-
-GoogleAds.defaultProps = {
-  style: { display: 'block' },
-  format: 'auto',
-};
-
-export default GoogleAds;
-
