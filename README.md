@@ -56,3 +56,6 @@ __1.0.2__
 __1.0.3__
 - migrate `webpack`
 - migrate `babel preset`
+
+__1.0.4__
+- fix typos in `README.md`

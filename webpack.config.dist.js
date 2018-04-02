@@ -41,12 +41,6 @@ module.exports = {
     "react-dom": "ReactDOM",
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'kakao-login.js',
-    libraryTarget: 'umd',
-    library: 'KakaoLogin',
-  },
-  output: {
     path: path.join(__dirname, 'dist'),
     filename: 'google-ads.js',
     libraryTarget: 'umd',

@@ -12,4 +12,3 @@ render(
     format="rectangle"
   />, appRoot
 );
-
