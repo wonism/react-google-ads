@@ -4,9 +4,9 @@
 ## Getting Started
 ```sh
 # Installation with package manager
-$ yarn add react react-dom react-google-ades
+$ yarn add react react-dom react-google-ads
 # or..
-$ npm i -S react react-dom react-google-ades
+$ npm i -S react react-dom react-google-ads
 ```
 
 ## Development
