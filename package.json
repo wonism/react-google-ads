@@ -1,6 +1,6 @@
 {
   "name": "react-google-ads",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React component for google adsense",
   "main": "dist/google-ads.js",
   "scripts": {
@@ -33,7 +33,8 @@
     "react-dom": "^15.0.0"
   },
   "dependencies": {
-    "react": "^15.4.1"
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -48,8 +49,6 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.10.3",
-    "prop-types": "^15.6.0",
-    "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.9.1"

@@ -59,3 +59,6 @@ __1.0.3__
 
 __1.0.4__
 - fix typos in `README.md`
+
+__1.0.5__
+- add `prop-types` for `react^16`
